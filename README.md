@@ -16,7 +16,7 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/sanyam12/book-store-server.git
-   cd book-store-server-main
+   cd book-store-server
    npm install
    node index.js
 
