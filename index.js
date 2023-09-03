@@ -4,25 +4,8 @@ const port = 3000;
 const admin = require("firebase-admin");
 const serviceAccount = require("./admin.json");
 
-// var { doc, getDoc } = require("firebase/firestore");
-// var getFirestore = require("firebase/firestore").getFirestore;
-// var initializeApp = require("@firebase/app").initializeApp;
-
-// const firebaseConfig = {
-//     apiKey: "AIzaSyDqdUqwtZ23FuPetbnq_Kv0PgwdYYObICc",
-//     authDomain: "book-store-193be.firebaseapp.com",
-//     projectId: "book-store-193be",
-//     storageBucket: "book-store-193be.appspot.com",
-//     messagingSenderId: "517541915143",
-//     appId: "1:517541915143:web:e8b6fbe6aae35b4cac98a2",
-//     measurementId: "G-J7M7869SFD"
-// };
-
-// var firebaseApp = initializeApp(firebaseConfig);
-
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://your-firebase-project-id.firebaseio.com', // Replace with your Firestore database URL
 });
 
 app.use(express.json());
