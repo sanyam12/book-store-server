@@ -1,6 +1,8 @@
 # book-store-server
 This is a backend for the Book Store app built in Flutter
 
+Server is live at: - https://book-store-i88v.onrender.com/
+
 
 This is a Node.js server built with Express.js that does XYZ. Follow the instructions below to run it locally.
 ## Prerequisites
